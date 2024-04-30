@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Layout = ({ isLoading, isAuthenticated, children }) => {
+const AppLayout = ({ isLoading, isAuthenticated, children }) => {
   if (isLoading) {
     return <div>Loading...</div>;
   }
@@ -12,4 +12,4 @@ const Layout = ({ isLoading, isAuthenticated, children }) => {
   );
 };
 
-export default Layout;
+export default AppLayout;

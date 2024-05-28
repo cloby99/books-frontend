@@ -5,10 +5,10 @@ function Header({ logoutButton }) {
     <div>
         <header>
             <nav className='navbar navbar-dark bg-primary' >
-              <div className='d-flex justify-content-between align-items-center'>
+              <div className='d-flex justify-content-between align-items-center w-100'>
                 <a className="navbar-brand mx-3" href="#">Books Management System</a>
                 {React.cloneElement(logoutButton, {
-                    className: "btn btn-light",
+                    className: "btn btn-light mx-3",
                 })}
               </div>
                 

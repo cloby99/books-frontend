@@ -11,8 +11,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         config={ {
             signInRedirectURL: "http://localhost:3000/",
             signOutRedirectURL: "http://localhost:3000/",
-            clientID: "lmHAd98YeNDXJXlSVhdGhUR7rSQa",
-            baseUrl: "https://api.asgardeo.io/t/crudapplication",
+            clientID: "WPDI0JzkQv6ZWOwzlN3sCaiQQ70a",
+            baseUrl: "https://api.asgardeo.io/t/booksclub",
             scope: [ "openid","profile" ]
         } }
     >
